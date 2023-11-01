@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+  display: block;
+}
+hr {
+  display: none;
+}
+em {
+  font-style: normal;
+}
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+strong.more {
+  color: #c30;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.body {
+  background: #ffefd5;
+}
+.header {
+  background-color: lightgray;
+}
+.hooter {
+  background-color: darkgray;
+  font-size: 11px;
+}
+
+.address {
+  background-color: black;
+  color: lightgray;
+  padding: 1rem;
+  margin: 1rem;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+
+.image_circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("image.jpg");
+}
+.store_introduction {
+  font-size: 8px;
+}
+
+.accordion-trigger {
+  margin: 0;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  background-color: #ffc7af;
+}
+
+.accordion-contents {
+  margin: 0;
+  display: block;
+  display: none;
+}
+
+.accordion-contents li {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* スライダー */
+.swiper-slide {
+  margin: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  margin: 0 auto;
+  width: auto;
+  height: 450px;
+}
+
+.content{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+
+.fadein {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: opacity 1s,visibility 1s, transform 1s;
+}
+
+.scroll {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
